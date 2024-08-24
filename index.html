@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <!-- <div id="app"></div> -->
+
+  <div class="todo">
+    <div class="todo__wrapper">
+      <h1 class="todo__title">To Do</h1>
+      <button class="todo__settings" type="button">
+        <img src="./set.svg" alt="Settings">
+      </button>
+    </div>
+
+
+    <ul class="todo__list">
+      <li class="todo__item">
+
+        <input class="todo__input" type="checkbox" id="today" checked>
+        <label class="todo__label" for="today"><span class="todo__label-text">Today Tasks</span></label>
+
+        <div class="todo__collapse">
+          <ul class="todo__sub-list">
+
+            <li class="todo__sub-item">
+              <div class="task">
+                <input class="task__input" type="checkbox" id="task-1">
+                <label class="task__checkbox" for="task-1">
+                  <span class="visually-hidden">Завершить задачу</span>
+                  <span class="task__toggle"></span>
+                </label>
+                <h2 class="task__title">Visit David</h2>
+                <p class="task__description">Lorem Ipsum Dolor Sit met...</p>
+              </div>
+            </li>
+
+            <li class="todo__sub-item">
+              <div class="task">
+                <input class="task__input" type="checkbox" id="task-2">
+                <label class="task__checkbox" for="task-2">
+                  <span class="visually-hidden">Завершить задачу</span>
+                  <span class="task__toggle"></span>
+                </label>
+                <h2 class="task__title">Visit David</h2>
+                <p class="task__description">Lorem Ipsum Dolor Sit met...</p>
+              </div>
+            </li>
+
+            <li class="todo__sub-item">
+              <div class="task">
+                <input class="task__input" type="checkbox" id="task-3" checked>
+                <label class="task__checkbox" for="task-3">
+                  <span class="visually-hidden">Завершить задачу</span>
+                  <span class="task__toggle"></span>
+                </label>
+                <h2 class="task__title">Visit David</h2>
+                <p class="task__description">Lorem Ipsum Dolor Sit met...</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+      <li class="todo__item">
+
+        <input class="todo__input" type="checkbox" id="tomorrow">
+        <label class="todo__label" for="tomorrow"><span class="todo__label-text">Tomorrow Tasks</span></label>
+
+        <div class="todo__collapse">
+          <ul class="todo__sub-list">
+
+            <li class="todo__sub-item">
+              <div class="task">
+                <input class="task__input" type="checkbox" id="task-4">
+                <label class="task__checkbox" for="task-4">
+                  <span class="visually-hidden">Завершить задачу</span>
+                  <span class="task__toggle"></span>
+                </label>
+                <h2 class="task__title">Visit David</h2>
+                <p class="task__description">Lorem Ipsum Dolor Sit met...</p>
+              </div>
+            </li>
+
+            <li class="todo__sub-item">
+              <div class="task">
+                <input class="task__input" type="checkbox" id="task-5">
+                <label class="task__checkbox" for="task-5">
+                  <span class="visually-hidden">Завершить задачу</span>
+                  <span class="task__toggle"></span>
+                </label>
+                <h2 class="task__title">Visit David</h2>
+                <p class="task__description">Lorem Ipsum Dolor Sit met...</p>
+              </div>
+            </li>
+
+            <li class="todo__sub-item">
+              <div class="task">
+                <input class="task__input" type="checkbox" id="task-6" checked>
+                <label class="task__checkbox" for="task-6">
+                  <span class="visually-hidden">Завершить задачу</span>
+                  <span class="task__toggle"></span>
+                </label>
+                <h2 class="task__title">Visit David</h2>
+                <p class="task__description">Lorem Ipsum Dolor Sit met...</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
